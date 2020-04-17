@@ -43,4 +43,5 @@ class WebhookListener extends EventEmitter {
 
 const listener = new WebhookListener();
 listener.listen();
+console.log("Token = " + process.env.BOT_TOKEN);
 client.login(process.env.BOT_TOKEN);
