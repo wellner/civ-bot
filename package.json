@@ -3,8 +3,9 @@
   "version": "0.9.0",
   "description": "Bot to handle turns in Civ6",
   "main": "civ_bot.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scripts": {
+	"start": "node civ_bot.js",
+	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
