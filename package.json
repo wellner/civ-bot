@@ -1,0 +1,28 @@
+{
+  "name": "civ-bot",
+  "version": "0.9.0",
+  "description": "Bot to handle turns in Civ6",
+  "main": "civ_bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellner/civ-bot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "wellner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellner/civ-bot/issues"
+  },
+  "homepage": "https://github.com/wellner/civ-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord.js": "^12.1.1",
+    "events": "^3.1.0",
+    "express": "^4.17.1"
+  }
+}
