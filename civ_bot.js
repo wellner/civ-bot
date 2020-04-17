@@ -14,6 +14,8 @@ var client = new Discord.Client();
  
 client.on("ready", (e) => {
     console.log("I am ready!");
+    console.log("Type of e: " + typeof e);
+    console.log("Type of client: " + typeof client);        
     let ch = client.channels.get(CHANNEL_ID);
     console.log("Got channel " + ch);
 });
