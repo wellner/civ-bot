@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const express = require('express');
 const bodyParser = require('body-parser');
 const EventEmitter = require('events');
-const auth = require('./auth.json');
+//const auth = require('./auth.json');
 
 const PORT = process.env.PORT || 3030;
 
